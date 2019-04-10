@@ -5,7 +5,7 @@
     position: relative;
     float: left;
     height: 100vh;
-    transform: translateX(0%) ;
+    transform: translateX(0%);
 
 }
 .sidenav-trigger {
@@ -32,5 +32,9 @@
 
     .brand-logo {
         display: flex !important;
+    }
+    .grid-container {
+        position: fixed;
+        width: 100% ;
     }
 }

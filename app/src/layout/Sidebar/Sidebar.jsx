@@ -6,7 +6,7 @@ export default class Sidenav extends React.Component{
   
     render() {
         return (
-            <div>
+            <>
             <a href="#" data-target="slide-out" className="sidenav-trigger btn waves-effect waves-light"><i className="material-icons">menu</i></a>
 
             <ul id="slide-out" className={`sidenav`} >
@@ -57,7 +57,7 @@ export default class Sidenav extends React.Component{
         </ul>
               <li><a className="waves-effect" href="#!">Otros</a></li>
             </ul>
-          </div>
+          </>
         )
     }
 }
