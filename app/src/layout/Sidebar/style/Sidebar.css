@@ -1,0 +1,36 @@
+.sidenav li>a {
+    display: flex !important;
+}
+.sidenav {
+    position: relative;
+    float: left;
+    height: 100vh;
+    transform: translateX(0%) ;
+
+}
+.sidenav-trigger {
+ position: fixed;
+ bottom: 15px;
+ right: -100%;       
+
+}
+.brand-logo {
+    display: none !important;
+}
+
+@media screen and (max-width:992px) {
+    .sidenav {
+        transition: all .3s ease;
+        transform: translateX(-100%) ;
+    }
+
+    .sidenav-trigger {
+        right: 15px;       
+
+        
+    }
+
+    .brand-logo {
+        display: flex !important;
+    }
+}
