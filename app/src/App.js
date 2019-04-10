@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Home from './screens/Home/Home';
-import Sidebar from './screens/Home/Sidebar/Sidebar';
-import Navbar from './screens/Home/Navbar/Navbar';
+import Home from './layout/Home';
+import Sidebar from './layout/Sidebar/Sidebar';
+import Navbar from './layout/Navbar/Navbar';
 
 class App extends Component {
   render() {
